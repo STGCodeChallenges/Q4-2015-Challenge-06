@@ -18,13 +18,13 @@ Here are the rules:
 * Possible values for size: small, medium, large
 * Possible values for clatters: no, a bit, yes
 * Possible values for weight: light, medium, heavy
-
-* The return value must be an array of the names of items from your wishlist, e.g. ["Toy Car", "Card Game"]
+* The return value must be an array of the names of items from your wishlist, e.g. ```["Toy Car", "Card Game"]```
 * Don't add any item more than once to the result
 * The order of names in the returned array doesn't matter
 * It's possible that multiple items from your wish list will have the same attribute values. If they match the attributes of one of the presents, add all of them.
 
 Example:
+
 ```var wishlist = [
     {name: "Mini Puzzle", size: "small", clatters: "yes", weight: "light"},
     {name: "Toy Car", size: "medium", clatters: "a bit", weight: "medium"},
